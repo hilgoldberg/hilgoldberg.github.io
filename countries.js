@@ -2,7 +2,7 @@
 var countries = ['Republic of Hil', 'Goldbergistan', 'Hil"s Hill'
 ];
 
-var states = new Bloodhound({
+var countries = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.whitespace,
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     local: countries
